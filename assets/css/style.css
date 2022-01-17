@@ -12,11 +12,17 @@ body{
     position:relative;
 }
 footer{
-    position:absolute;
+    position:relative;
     bottom:0;
     width:100%;
     padding-top:50px;
     height:50px;
+    color: white;
+}
+footer p{ 
+    text-align: center;
+    padding: 80px;
+    
 }
 h1{
     text-align: center;
@@ -29,13 +35,11 @@ h2{
     text-align: center;
     font-size: 30px;
 }
-h3{
-    text-decoration:underline
-}
 #intro, #configGame, .configPlayer{
     box-shadow: 12px 12px 100px 39px #000;
     position:relative;
     border-radius: 20px;
+    
 }
 #regle{
     padding: 20px;
@@ -48,6 +52,16 @@ h3{
 }
 #configGame span, label, input, button {
     margin: 10px;
+}
+#configGame{
+    text-align: center;
+    font-size: 30px;
+}
+#configGame input{
+    text-align: center;
+    font-size: 30px;
+    width: 200px;
+    border-radius: 20px;
 }
 #name ,#egalite{
     font-size: 30px;
@@ -127,16 +141,7 @@ form{
 .imgResult{
     width : 175px;
 }
-#configGame{
-    text-align: center;
-    font-size: 30px;
-}
-#configGame input{
-    text-align: center;
-    font-size: 30px;
-    width: 200px;
-    border-radius: 20px;
-}
+
 #playerOne, #playerTwo{
 border: 3px solid black;
 }
@@ -146,16 +151,12 @@ border: 3px solid black;
 }
 #timer{
     font-size: 30px;
-    color: red;
+    color: white;
 }
-#footer{
-    position: relative;
+#manche{
+    color:white;
 }
-#footer p{ 
-    text-align: center;
-    padding: 80px;
-    
-}
+
 .choice label{
     font-size: 24px;
 }

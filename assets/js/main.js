@@ -47,7 +47,7 @@ document.getElementById("game").innerHTML=`
         </div>
 `
 
-//Étape 2 aprés appuie sur le bouton configuration de la partie
+//Étape 2 aprés un click sur le bouton configuration de la partie
 
 function configGame() {
     document.getElementById("game").innerHTML= `
@@ -330,12 +330,12 @@ function finish(playerone, playertwo) {
             </div>
         `
     }else if(playerTwo > playerOne){
-        if( playertwo === 1){
+        if( playerTwo === 1){
             points ="point";
         }
         document.getElementById("game").innerHTML=`
             <div id="intro" class="tracking-in-contract-bck-bottom">
-                <div id="questionChoice">
+                <div>
                     <h2>Fin du jeu</h2>
                 </div>
                 <div id="info">

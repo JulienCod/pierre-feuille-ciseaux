@@ -1,0 +1,179 @@
+@media screen and (max-width:400px) {
+    h1{
+        font-size: 22px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size:18px;
+        margin: 5px;
+    }
+    #regle p{
+        font-size: 16px;
+    }
+    #game{
+        margin: 10px;
+    }
+    footer{
+    position:relative;
+    width:100%;
+    padding-top: 5px;
+    }
+    footer p{
+        padding:0px;
+    }
+    #configGame{
+        font-size: 20px;
+    }
+    #configGame input{
+        font-size: 20px;
+    }
+    .imgChoice{
+        height : 165px;
+        width:auto;
+    }
+    #name ,#egalite{
+        font-size: 18px;
+    }
+    .img{
+        width:75px;
+        height: auto;
+        margin:0px;
+    }
+    #info p{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 16px;
+        margin: 5px;
+    }
+    #info img{
+        height: 75px;
+    }
+    #timer, #manche{
+        color: #ffffff;
+    }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px){
+    h1{
+        font-size: 27px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+        margin: 5px;
+    }
+    #regle p{
+        font-size: 18px;
+    }
+    #game{
+        margin: 10px;
+    }
+    footer{
+        position:relative;
+        width:100%;
+        padding-top: 5px;
+    }
+    footer p{
+        padding:0px;
+    }
+    #configGame{
+        text-align: center;
+        font-size: 25px;
+    }
+    #configGame input{
+        text-align: center;
+        font-size: 25px;
+        width: 200px;
+        border-radius: 20px;
+    }
+    .imgChoice{
+        height : 200px;
+        width:auto;
+        
+    }
+    #name ,#egalite{
+        font-size: 20px;
+    }
+    .img{
+        width:80px;
+        height: auto;
+        margin:0px;
+    }
+    #info p{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 18px;
+        margin: 5px;
+    }
+    #info img{
+        height: 90px;
+    }
+}
+@media screen and (min-width: 601px ) and (max-width: 800px){
+    h1{
+        font-size: 35px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    h3{
+        font-size:23px;
+        margin: 5px;
+    }
+    #regle p{
+        font-size: 20px;
+    }
+    #game{
+        margin: 10px;
+    }
+    footer{
+        position:relative;
+        width:100%;
+        padding-top: 15px;
+    }
+    footer p{
+        padding:0px;
+    }
+    #configGame{
+        text-align: center;
+        font-size: 28px;
+    }
+    #configGame input{
+        text-align: center;
+        font-size: 28px;
+        width: 200px;
+        border-radius: 20px;
+    }
+    .imgChoice{
+        height : 250px;
+        width:auto;
+    }
+    #name ,#egalite{
+        font-size: 23px;
+    }
+    .img{
+        width:125px;
+        height: auto;
+        margin:0px;
+    }
+    #info p{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 20px;
+        margin: 5px;
+    }
+    #info img{
+        height: 100px;
+    }
+}
