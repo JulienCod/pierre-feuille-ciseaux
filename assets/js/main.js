@@ -43,6 +43,7 @@ document.getElementById("game").innerHTML=`
                 Quand vous êtes prêt cliquer sur le boutton <span>"Commencer une partie"</span>
                 </p>
                 <button class="btn" onclick="configGame()">Commencer une partie</button>
+                <a href="../../index.html"><button class="btn">Acceuil</button></a>
             </div>
         </div>
 `
@@ -326,6 +327,7 @@ function finish(playerone, playertwo) {
                     
                     <button class="btn" onclick="configGame()">une nouvelle partie</button>
                     <button class="btn" onclick="reset()">Recommencer une partie</button>
+                    <a href="../../index.html"><button class="btn">Acceuil</button></a>
                 </div>
             </div>
         `
@@ -353,6 +355,7 @@ function finish(playerone, playertwo) {
                     
                     <button class="btn" onclick="configGame()">Une nouvelle partie</button>
                     <button class="btn" onclick="reset()">Recommencer une partie</button>
+                    <a href="../../index.html"><button class="btn">Acceuil</button></a>
                 </div>
             </div>
         `  

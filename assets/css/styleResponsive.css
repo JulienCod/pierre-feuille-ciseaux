@@ -2,10 +2,11 @@
     h1{
         font-size: 22px;
         padding-top: 5px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
     h2{
         font-size: 20px;
+        margin: 5px;
     }
     h3{
         font-size:18px;
@@ -55,6 +56,9 @@
     #timer, #manche{
         color: #ffffff;
     }
+    .btn{
+        margin: 5px;
+    }
 
 }
 
@@ -62,10 +66,11 @@
     h1{
         font-size: 27px;
         padding-top: 5px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
     h2{
         font-size: 24px;
+        margin: 5px;
     }
     h3{
         font-size: 20px;
