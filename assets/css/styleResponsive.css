@@ -59,7 +59,7 @@
     .btn{
         margin: 5px;
     }
-    .choixNbjoueurs{
+    #choixUnjoueur, #choixdeuxjoueurs{
         display: none;
     }
 
@@ -125,7 +125,7 @@
     #info img{
         height: 90px;
     }
-    .choixNbjoueurs{
+    #choixUnjoueur, #choixdeuxjoueurs{
         display: none;
     }
 }

@@ -70,11 +70,11 @@ function numberPlayer(){
     document.getElementById("game").innerHTML= `
     <div id="configGame1" class="tracking-in-contract-bck-bottom">
         <div class="flex1">
-              <img src="./assets/images/joueurVSpc.png" class="imgConfig" alt="image d'un smiley qui ne sait pas">
+              <img src="./assets/images/joueurVSpc.png" class="imgConfig" onclick="configGameUnJoueur()" alt="image d'un homme et d'un ordinateur">
             <button class="btn" id="choixUnjoueur" onclick="configGameUnJoueur()">1 joueur</button>
         </div>    
         <div class ="flex1">
-            <img src="./assets/images/joueurVSjoueur.png" class="imgConfig" alt="image d'un smiley qui ne sait pas">
+            <img src="./assets/images/joueurVSjoueur.png" class="imgConfig" onclick="configGameDeuxJoueurs()" alt="image d'un versus à deux joueurs">
             <button class="btn" id="choixdeuxjoueurs" onclick="configGameDeuxJoueurs()">2 joueurs</button>
         </div>
     </div>
