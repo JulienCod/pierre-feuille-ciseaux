@@ -35,7 +35,7 @@ h2{
     text-align: center;
     font-size: 30px;
 }
-#intro, #configGame, .configPlayer{
+#intro, #configGame2, .configPlayer, #configGame1{
     box-shadow: 12px 12px 100px 39px #000;
     position:relative;
     border-radius: 20px;
@@ -50,14 +50,14 @@ h2{
 #regle span, #info span{
     font-style: italic;
 }
-#configGame span, label, input, button {
+#configGame2 span, label, input, button {
     margin: 10px;
 }
-#configGame{
+#configGame2{
     text-align: center;
     font-size: 30px;
 }
-#configGame input{
+#configGame2 input{
     text-align: center;
     font-size: 30px;
     width: 200px;
@@ -128,6 +128,19 @@ form{
     display: flex;
     justify-content: space-around;
     position:relative;
+}
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.imgConfig{
+    width: auto;
+}
+#choixUnjoueur{
+    margin-left: 13.75px;
+    margin-right: 13.75px;
 }
 .configPlayer{
     text-align: center;
