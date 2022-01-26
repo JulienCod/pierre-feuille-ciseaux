@@ -26,10 +26,10 @@
     footer p{
         padding:0px;
     }
-    #configGame{
+    #configGame2{
         font-size: 20px;
     }
-    #configGame input{
+    #configGame2 input{
         font-size: 20px;
     }
     .imgChoice{
@@ -58,6 +58,9 @@
     }
     .btn{
         margin: 5px;
+    }
+    .choixNbjoueurs{
+        display: none;
     }
 
 }
@@ -90,11 +93,11 @@
     footer p{
         padding:0px;
     }
-    #configGame{
+    #configGame2{
         text-align: center;
         font-size: 25px;
     }
-    #configGame input{
+    #configGame2 input{
         text-align: center;
         font-size: 25px;
         width: 200px;
@@ -121,6 +124,9 @@
     }
     #info img{
         height: 90px;
+    }
+    .choixNbjoueurs{
+        display: none;
     }
 }
 @media screen and (min-width: 601px ) and (max-width: 800px){
@@ -150,11 +156,11 @@
     footer p{
         padding:0px;
     }
-    #configGame{
+    #configGame2{
         text-align: center;
         font-size: 28px;
     }
-    #configGame input{
+    #configGame2 input{
         text-align: center;
         font-size: 28px;
         width: 200px;
