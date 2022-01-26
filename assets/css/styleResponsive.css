@@ -26,10 +26,10 @@
     footer p{
         padding:0px;
     }
-    #configGame{
+    #configGame2{
         font-size: 20px;
     }
-    #configGame input{
+    #configGame2 input{
         font-size: 20px;
     }
     .imgChoice{
@@ -90,11 +90,11 @@
     footer p{
         padding:0px;
     }
-    #configGame{
+    #configGame2{
         text-align: center;
         font-size: 25px;
     }
-    #configGame input{
+    #configGame2 input{
         text-align: center;
         font-size: 25px;
         width: 200px;
@@ -150,11 +150,11 @@
     footer p{
         padding:0px;
     }
-    #configGame{
+    #configGame2{
         text-align: center;
         font-size: 28px;
     }
-    #configGame input{
+    #configGame2 input{
         text-align: center;
         font-size: 28px;
         width: 200px;
